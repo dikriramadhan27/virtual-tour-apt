@@ -739,7 +739,15 @@ iframe {
   .menu-toggle {
     display: flex;
   }
+  #nav-menu-compu {
+    display:   none !important;
+    background-color: red;
 
+  }
+  #nav-menu-compu .nav-links {
+    display: none;
+    background-color: red;
+  }
   /* Sembunyikan menu default */
   .nav-links {
     display: none;
@@ -788,7 +796,9 @@ body.menu-open {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
-
+#nav-menu-compu {
+  display: inline-block;
+}
 #nav-menu.active {
   display: block;
 }
