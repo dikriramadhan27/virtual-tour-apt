@@ -9,13 +9,23 @@
   <body>
     <header class="navbar">
       <div class="logo">ATPVirtualTour</div>
-      <nav>
+
+      <!-- Tombol Hamburger -->
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- Menu Navigasi -->
+      <nav id="nav-menu">
         <ul class="nav-links">
-          <li><a href="#">Beranda</a></li>
-          <li><a href="#tentang-kami">Tentang</a></li>
+          <li><a href="#hero">Beranda</a></li>
+          <li><a href="#tentang">Tentang</a></li>
           <li><a href="#fasilitas">Fasilitas</a></li>
           <li><a href="#tiket">Tiket</a></li>
-           <li><a href="#Lokasi">Lokasi</a></li>
+          <li><a href="#video">Video 360°</a></li>
+          <li><a href="#lokasi">Lokasi</a></li>
         </ul>
       </nav>
     </header>
@@ -24,35 +34,58 @@
       <div class="hero-content">
         <h1>Selamat Datang di Virtual Tour Agrowisata Tepas Papandayan</h1>
         <p>
-          Terima kasih telah berkunjung ke website ini, nikmati setiap sudut perjalanan ini seolah-olah Anda benar-benar ada di sana.
+          Terima kasih telah berkunjung ke website ini, nikmati setiap sudut
+          perjalanan ini seolah-olah Anda benar-benar ada di sana.
         </p>
-        <a href="VirtualTour/index.htm" class="cta-button">Masuk Ke Virtual Tour</a>
+        <a href="VirtualTour/index.htm" class="cta-button"
+          >Masuk Ke Virtual Tour</a
+        >
       </div>
     </section>
 
     <section class="description-section" id="tentang-kami">
       <div class="description-content">
         <h2>Tentang Kami</h2>
-        <p>Selamat Datang di Virtual Tour Agrowisata Tepas Papandayan
-
-
-        <p>
-          Agrowisata tepas papandayan adalah wisata alam yang terletak di Kabupaten Garut ,Badan Usaha Milik Desa Keramatwangi yang berlokasi Kecamatan Cisurupan tepatnya dibawah kaki Gunung Papandayan, fasilitas utama dari wisata kami yaitu infinity pool dengan view utamanya adalah Gunung Cikuray dan menyuguhkan golden sunrise.
+        <p class="intro">
+          Selamat Datang di Virtual Tour Agrowisata Tepas Papandayan
         </p>
-        <p>
-          Jam Operasional: Agrowisata Tepas Papandayan buka setiap hari selama 24 jam. Sementara itu, Cafe dan Resto kami beroperasi setiap hari mulai pukul 05.00 pagi hingga 23.00 malam, siap menyajikan hidangan lezat untuk Anda.
-        </p>
-        <p>
-          Infinity pool adalah kolam renang yang dirancang sedemikian rupa sehingga memberikan ilusi visual seolah-olah air kolam meluber ke tepi dan menyatu dengan pemandangan di sekitarnya
-        </p>
-        <p>
-          Nikmati fasilitas lengkap yang kami sediakan diantaranya area parkir mobil, area parkir motor, kolam renang, kolam onsen, camping ground, glamping, cottage, camp pinus, campervan, kantin, kafe, toilet, ruang Ganti baju dan juga mushola.
-         Setiap sudut tempat ini dirancang untuk memberikan kenyamanan dan relaksasi, sehingga Anda bisa menikmati waktu bersama keluarga dan teman.
-         <p>
-          Untuk Informasi yang lebih detail mengenai pemesanan tenda ,glamping ataupun cootage anda dapat hubungi whatsaap di bagian paling bawah website kami. Anda juga dapat melihat lokasi kami melalui google maps yang sudah kami tampilkan pada website ini.
-         </p>
-</p>      
 
+        <p>
+          Agrowisata Tepas Papandayan adalah wisata alam yang terletak di
+          Kabupaten Garut, Badan Usaha Milik Desa Keramatwangi yang berlokasi di
+          Kecamatan Cisurupan tepatnya di bawah kaki Gunung Papandayan.
+          Fasilitas utama dari wisata kami yaitu infinity pool dengan view utama
+          Gunung Cikuray dan menyuguhkan golden sunrise.
+        </p>
+
+        <p>
+          <strong>Jam Operasional:</strong> Agrowisata Tepas Papandayan buka
+          setiap hari selama 24 jam. Sementara itu, Cafe dan Resto kami
+          beroperasi setiap hari mulai pukul 05.00 pagi hingga 23.00 malam, siap
+          menyajikan hidangan lezat untuk Anda.
+        </p>
+
+        <p>
+          Infinity pool adalah kolam renang yang dirancang sedemikian rupa
+          sehingga memberikan ilusi visual seolah-olah air kolam meluber ke tepi
+          dan menyatu dengan pemandangan di sekitarnya.
+        </p>
+
+        <p>
+          Nikmati fasilitas lengkap yang kami sediakan di antaranya area parkir
+          mobil, area parkir motor, kolam renang, kolam onsen, camping ground,
+          glamping, cottage, camp pinus, campervan, kantin, kafe, toilet, ruang
+          ganti baju, dan mushola. Setiap sudut tempat ini dirancang untuk
+          memberikan kenyamanan dan relaksasi, sehingga Anda bisa menikmati
+          waktu bersama keluarga dan teman.
+        </p>
+
+        <p>
+          Untuk informasi lebih detail mengenai pemesanan tenda, glamping,
+          ataupun cottage Anda dapat menghubungi WhatsApp di bagian paling bawah
+          website kami. Anda juga dapat melihat lokasi kami melalui Google Maps
+          yang telah kami tampilkan.
+        </p>
       </div>
     </section>
 
@@ -63,30 +96,44 @@
           <img class="img" src="public/kolam rendam.jpg" alt="Kolam Rendam" />
           <div class="overlay">
             <p>
-            Kolam rendam dengan air panas yang langsung dari gunung dan kolam dengan konsep infinity pool yang menyajikan pemandangan menakjubkan view gunung dan view golden sunrise di pagi hari.
+              Kolam rendam dengan air panas yang langsung dari gunung dan kolam
+              dengan konsep infinity pool yang menyajikan pemandangan
+              menakjubkan view gunung dan view golden sunrise di pagi hari.
             </p>
           </div>
         </div>
+
         <div class="box">
           <img class="img" src="public/onsen.JPG" alt="Kolam Onsen" />
           <div class="overlay">
             <p>
-              pemandian air panas onsen dengan air belerang yang memberikan manfaat untuk relaksasi, meningkatkan sirkulasi darah, dan membantu menyembuhkan berbagai penyakit kulit atau nyeri otot. 
+              pemandian air panas onsen dengan air belerang yang memberikan
+              manfaat untuk relaksasi, meningkatkan sirkulasi darah, dan
+              membantu menyembuhkan berbagai penyakit kulit atau nyeri otot.
             </p>
           </div>
         </div>
+
         <div class="box">
           <img class="img" src="public/kedai.jpg" alt="Kedai" />
           <div class="overlay">
             <p>
-              Kedai Cafe, Kedai ini menyajikan hidangan lezat dan minuman ala-ala Cafe Resto dengan suasana alam dan perkebunan yang cocok untuk bersantai setelah berendam ataupun makan-makan bersama teman atau keluarga.
+              Kedai Cafe, Kedai ini menyajikan hidangan lezat dan minuman
+              ala-ala Cafe Resto dengan suasana alam dan perkebunan yang cocok
+              untuk bersantai setelah berendam ataupun makan-makan bersama teman
+              atau keluarga.
             </p>
           </div>
         </div>
+
         <div class="box">
           <img class="img" src="public/mushola.JPG" alt="Mushola" />
           <div class="overlay">
-            <p>Mushola di wisata alam ini terletak di tengah pemandangan hijau yang asri. Bangunannya sederhana, terbuat dari kayu yang menyatu dengan alam dikelilingi pepohonan dan suara burung.</p>
+            <p>
+              Mushola di wisata alam ini terletak di tengah pemandangan hijau
+              yang asri. Bangunannya sederhana, terbuat dari kayu yang menyatu
+              dengan alam dikelilingi pepohonan dan suara burung.
+            </p>
           </div>
         </div>
       </div>
@@ -95,26 +142,31 @@
     <section class="ticket-section" id="tiket">
       <h2 class="section-title">Harga Tiket & Sewa</h2>
 
-      <!-- Kartu Harga Tiket -->
       <div class="ticket-cards">
         <div class="ticket-card">
           <h3>Tiket Masuk</h3>
           <p class="price">Rp 10.000</p>
           <p>Termasuk akses ke seluruh area umum, Kolam dan ocen</p>
         </div>
+
         <div class="ticket-card">
           <h3>Tiket Parkir Motor</h3>
           <p class="price">Rp 3.000</p>
-          <p>Area parkir motor yang luas, aman, dan terorganisir dengan rapih.</p>
+          <p>
+            Area parkir motor yang luas, aman, dan terorganisir dengan rapih.
+          </p>
         </div>
+
         <div class="ticket-card">
           <h3>Tiket Parkir Mobil</h3>
           <p class="price">Rp 5.000</p>
-          <p>Area parkir mobil yang luas dan nyaman, Cocok untuk semua jenis mobil.</p>
+          <p>
+            Area parkir mobil yang luas dan nyaman, Cocok untuk semua jenis
+            mobil.
+          </p>
         </div>
       </div>
 
-      <!-- Kartu Sewa Fasilitas -->
       <div class="rental-cards">
         <div class="rental-card">
           <img src="public/camp.jpg" alt="Tenda Camp" />
@@ -123,6 +175,7 @@
             <p>Mulai dari Rp 135.000 / malam</p>
           </div>
         </div>
+
         <div class="rental-card">
           <img src="public/Campervan.jpg" alt="Campervan" />
           <div class="rental-info">
@@ -130,6 +183,7 @@
             <p>Mulai dari Rp 100.000 / malam</p>
           </div>
         </div>
+
         <div class="rental-card">
           <img src="public/glamping biasa.JPG" alt="Glamping Biasa" />
           <div class="rental-info">
@@ -137,6 +191,7 @@
             <p>Mulai dari Rp 750.000 / malam</p>
           </div>
         </div>
+
         <div class="rental-card">
           <img src="public/glamping keong.JPG" alt="Glamping Keong" />
           <div class="rental-info">
@@ -144,6 +199,7 @@
             <p>Mulai dari Rp 1000.000 / malam</p>
           </div>
         </div>
+
         <div class="rental-card">
           <img src="public/cottage.jpg" alt="Cootage" />
           <div class="rental-info">
@@ -154,78 +210,67 @@
       </div>
     </section>
 
-    
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lokasi Kami di Google Maps</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        iframe {
-            width: 100%;
-            height: 400px; /* Atur tinggi sesuai kebutuhan */
-            border: 0;
-        }
-    </style>
-</head>
-    <section class="Lokasi" id="Lokasi">
-     
-      <h2 class="section-title">Lokasi Kami</h2>
-      <div class="rental-card">
-  <p>Agrowisata Tepas Papandayan terletak di Desa Karamatwangi, Kecamatan Cisurupan, Kabupaten Garut, Jawa Barat. Lokasinya sekitar 15 km dari pusat kota Garut. Untuk mencapai tempat ini, Anda bisa menggunakan kendaraan pribadi atau menyewa transportasi lokal. Akses menuju lokasi ini cukup mudah, dengan jalan beraspal yang baik. Namun, harap diperhatikan bahwa ada beberapa tanjakan curam menjelang tiba di area ini.</p>
+    <section class="lokasi" id="Lokasi">
+      <div class="lokasi-container">
+        <h2 class="section-title">Lokasi Kami</h2>
 
+        <div class="lokasi-content">
+          <p>
+            Agrowisata Tepas Papandayan terletak di Desa Karamatwangi, Kecamatan
+            Cisurupan, Kabupaten Garut, Jawa Barat. Lokasinya sekitar 15 km dari
+            pusat kota Garut. Untuk mencapai tempat ini, Anda bisa menggunakan
+            kendaraan pribadi atau menyewa transportasi lokal. Akses menuju
+            lokasi ini cukup mudah, dengan jalan beraspal yang baik. Namun,
+            harap diperhatikan bahwa ada beberapa tanjakan curam menjelang tiba
+            di area ini.
+          </p>
 
-  <body>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.352400798804!2d107.76376607584606!3d-7.314250992693745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68a541104e5e91%3A0xe1fbdd0a6f44c33b!2sAGROWISATA%20TEPAS%20PAPANDAYAN%20(ATP)!5e0!3m2!1sid!2sid!4v1758913905689!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</body>
-</div>
-</html>
+          <div class="lokasi-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.352400798804!2d107.76376607584606!3d-7.314250992693745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68a541104e5e91%3A0xe1fbdd0a6f44c33b!2sAGROWISATA%20TEPAS%20PAPANDAYAN%20(ATP)!5e0!3m2!1sid!2sid!4v1758913905689!5m2!1sid!2sid"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer class="footer">
       <div class="footer-content">
         <p>&copy; 2025 HAK CIPTA DILINDUNGI AGROWISATA TEPAS PAPANDAYAN</p>
-        <P>Made By Dikri Ramadhan</P>
+        <p>Made By Dikri Ramadhan</p>
         <p>Contact Us:</p>
+
         <div class="social-icons">
-          <!--   TIKTOK LINK DIBAWAH -->
           <a
             href="https://www.tiktok.com/@tepaspapandayann?_t=ZS-8wIM0fJ7eVN&_r=1"
             target="_blank"
             aria-label="TikTok"
           >
-            <!-- END -->
             <img
               src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png"
               alt="TikTok"
             />
           </a>
-          <!-- INSTAGRAM LINK DIBAWAH -->
+
           <a
             href="https://www.instagram.com/agrowisatatepaspapandayan?igsh=MWZ6YWF5Y3Z0YmNuaw=="
             target="_blank"
             aria-label="Instagram"
           >
-            <!-- END -->
             <img
               src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
               alt="Instagram"
             />
           </a>
-          <!-- WA LINK DIBAWAH -->
+
           <a
             href="https://wa.me/6282218725147"
             target="_blank"
             aria-label="WhatsApp"
           >
-            <!-- END -->
             <img
               src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
               alt="WhatsApp"
@@ -234,5 +279,27 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const navMenu = document.getElementById("nav-menu");
+      const navLinks = document.querySelectorAll(".nav-links a");
+
+      // Toggle buka/tutup menu
+      menuToggle.addEventListener("click", () => {
+        const isActive = navMenu.classList.toggle("active");
+        menuToggle.classList.toggle("active");
+        document.body.classList.toggle("menu-open", isActive); // <— kunci body scroll
+      });
+
+      // Tutup menu saat link diklik
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          menuToggle.classList.remove("active");
+          navMenu.classList.remove("active");
+          document.body.classList.remove("menu-open"); // buka scroll lagi
+        });
+      });
+    </script>
   </body>
 </html>
